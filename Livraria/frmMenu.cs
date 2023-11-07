@@ -17,21 +17,6 @@ namespace Livraria
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmFuncionario1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnSair_Click(object sender, EventArgs e)
         {
             Login login = new Login();
@@ -39,14 +24,19 @@ namespace Livraria
             this.Hide();
         }
 
-        private void lblUsuarioLogado_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void frmMenu_Load(object sender, EventArgs e)
         {
             lblUsuarioLogado.Text = Login.LoginFuncionario;
+        }
+
+        private void btnFunc_Click(object sender, EventArgs e)
+        {
+            frmFuncionario1.BringToFront();
+        }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+            frmCliente1.BringToFront();
         }
     }
 }

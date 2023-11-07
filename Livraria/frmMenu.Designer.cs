@@ -43,6 +43,7 @@
             this.btnFunc = new System.Windows.Forms.Button();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.frmCliente1 = new Livraria.frmCliente();
             this.frmFuncionario1 = new Livraria.frmFuncionario();
             this.pnlMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
@@ -79,7 +80,6 @@
             this.lblUsuarioLogado.Name = "lblUsuarioLogado";
             this.lblUsuarioLogado.Size = new System.Drawing.Size(0, 13);
             this.lblUsuarioLogado.TabIndex = 13;
-            this.lblUsuarioLogado.Click += new System.EventHandler(this.lblUsuarioLogado_Click);
             // 
             // label2
             // 
@@ -263,6 +263,7 @@
             this.btnCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCliente.UseVisualStyleBackColor = true;
+            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
             // btnFunc
             // 
@@ -282,6 +283,7 @@
             this.btnFunc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFunc.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnFunc.UseVisualStyleBackColor = true;
+            this.btnFunc.Click += new System.EventHandler(this.btnFunc_Click);
             // 
             // pnlLogo
             // 
@@ -307,7 +309,13 @@
             this.label1.Text = "WS Livraria";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.UseMnemonic = false;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // frmCliente1
+            // 
+            this.frmCliente1.Location = new System.Drawing.Point(200, 0);
+            this.frmCliente1.Name = "frmCliente1";
+            this.frmCliente1.Size = new System.Drawing.Size(802, 540);
+            this.frmCliente1.TabIndex = 14;
             // 
             // frmFuncionario1
             // 
@@ -315,13 +323,13 @@
             this.frmFuncionario1.Name = "frmFuncionario1";
             this.frmFuncionario1.Size = new System.Drawing.Size(802, 540);
             this.frmFuncionario1.TabIndex = 1;
-            this.frmFuncionario1.Load += new System.EventHandler(this.frmFuncionario1_Load);
             // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1004, 541);
+            this.Controls.Add(this.frmCliente1);
             this.Controls.Add(this.frmFuncionario1);
             this.Controls.Add(this.pnlMenu);
             this.Name = "frmMenu";
@@ -354,5 +362,6 @@
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label lblUsuarioLogado;
         private System.Windows.Forms.Label label2;
+        private frmCliente frmCliente1;
     }
 }
