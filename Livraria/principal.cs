@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Livraria
 {
-    public partial class principal : UserControl
+    public partial class Principal : UserControl
     {
-        public principal()
+        public Principal()
         {
             InitializeComponent();
         }

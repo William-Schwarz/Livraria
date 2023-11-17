@@ -43,8 +43,9 @@
             this.btnFunc = new System.Windows.Forms.Button();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.frmCliente1 = new Livraria.frmCliente();
+            this.barraOpcoes1 = new Livraria.BarraOpcoes();
             this.frmFuncionario1 = new Livraria.frmFuncionario();
+            this.frmCliente1 = new Livraria.frmCliente();
             this.pnlMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
             this.SuspendLayout();
@@ -73,6 +74,7 @@
             // 
             // lblUsuarioLogado
             // 
+            this.lblUsuarioLogado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblUsuarioLogado.AutoSize = true;
             this.lblUsuarioLogado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuarioLogado.ForeColor = System.Drawing.Color.DarkBlue;
@@ -83,6 +85,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
@@ -310,19 +313,34 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.UseMnemonic = false;
             // 
-            // frmCliente1
+            // barraOpcoes1
             // 
-            this.frmCliente1.Location = new System.Drawing.Point(200, 0);
-            this.frmCliente1.Name = "frmCliente1";
-            this.frmCliente1.Size = new System.Drawing.Size(802, 540);
-            this.frmCliente1.TabIndex = 14;
+            this.barraOpcoes1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barraOpcoes1.Location = new System.Drawing.Point(200, 0);
+            this.barraOpcoes1.Name = "barraOpcoes1";
+            this.barraOpcoes1.Size = new System.Drawing.Size(802, 60);
+            this.barraOpcoes1.TabIndex = 16;
             // 
             // frmFuncionario1
             // 
-            this.frmFuncionario1.Location = new System.Drawing.Point(200, 0);
+            this.frmFuncionario1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.frmFuncionario1.Location = new System.Drawing.Point(200, 60);
             this.frmFuncionario1.Name = "frmFuncionario1";
-            this.frmFuncionario1.Size = new System.Drawing.Size(802, 540);
-            this.frmFuncionario1.TabIndex = 1;
+            this.frmFuncionario1.Size = new System.Drawing.Size(802, 480);
+            this.frmFuncionario1.TabIndex = 17;
+            // 
+            // frmCliente1
+            // 
+            this.frmCliente1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.frmCliente1.Location = new System.Drawing.Point(200, 60);
+            this.frmCliente1.Name = "frmCliente1";
+            this.frmCliente1.Size = new System.Drawing.Size(802, 480);
+            this.frmCliente1.TabIndex = 18;
             // 
             // frmMenu
             // 
@@ -331,6 +349,7 @@
             this.ClientSize = new System.Drawing.Size(1004, 541);
             this.Controls.Add(this.frmCliente1);
             this.Controls.Add(this.frmFuncionario1);
+            this.Controls.Add(this.barraOpcoes1);
             this.Controls.Add(this.pnlMenu);
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -358,10 +377,11 @@
         private System.Windows.Forms.Button btnFones;
         private System.Windows.Forms.Button btnCliente;
         private System.Windows.Forms.Label label1;
-        private frmFuncionario frmFuncionario1;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label lblUsuarioLogado;
         private System.Windows.Forms.Label label2;
+        private BarraOpcoes barraOpcoes1;
+        private frmFuncionario frmFuncionario1;
         private frmCliente frmCliente1;
     }
 }

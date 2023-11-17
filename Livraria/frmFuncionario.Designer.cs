@@ -150,7 +150,7 @@
             // dgvFunc
             // 
             this.dgvFunc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFunc.Location = new System.Drawing.Point(47, 370);
+            this.dgvFunc.Location = new System.Drawing.Point(47, 310);
             this.dgvFunc.MultiSelect = false;
             this.dgvFunc.Name = "dgvFunc";
             this.dgvFunc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -162,7 +162,7 @@
             // 
             this.gbPesquisaFunc.Controls.Add(this.txtBusca);
             this.gbPesquisaFunc.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbPesquisaFunc.Location = new System.Drawing.Point(47, 300);
+            this.gbPesquisaFunc.Location = new System.Drawing.Point(47, 240);
             this.gbPesquisaFunc.Name = "gbPesquisaFunc";
             this.gbPesquisaFunc.Size = new System.Drawing.Size(511, 60);
             this.gbPesquisaFunc.TabIndex = 11;
@@ -318,7 +318,7 @@
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.lblFunc);
             this.Name = "frmFuncionario";
-            this.Size = new System.Drawing.Size(802, 540);
+            this.Size = new System.Drawing.Size(802, 480);
             this.Load += new System.EventHandler(this.frmFuncionario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvFunc)).EndInit();
             this.gbPesquisaFunc.ResumeLayout(false);

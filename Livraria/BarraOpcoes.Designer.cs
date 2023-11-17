@@ -28,28 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCancelar = new System.Windows.Forms.Button();
             this.btnColar = new System.Windows.Forms.Button();
             this.btnCopiar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnNovo = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Image = global::Livraria.Properties.Resources.cancelar;
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCancelar.Location = new System.Drawing.Point(480, 0);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(0);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(80, 60);
-            this.btnCancelar.TabIndex = 21;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // btnColar
             // 
@@ -60,7 +46,7 @@
             this.btnColar.Margin = new System.Windows.Forms.Padding(0);
             this.btnColar.Name = "btnColar";
             this.btnColar.Size = new System.Drawing.Size(80, 60);
-            this.btnColar.TabIndex = 23;
+            this.btnColar.TabIndex = 37;
             this.btnColar.Text = "Colar";
             this.btnColar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnColar.UseVisualStyleBackColor = true;
@@ -74,10 +60,24 @@
             this.btnCopiar.Margin = new System.Windows.Forms.Padding(0);
             this.btnCopiar.Name = "btnCopiar";
             this.btnCopiar.Size = new System.Drawing.Size(80, 60);
-            this.btnCopiar.TabIndex = 22;
+            this.btnCopiar.TabIndex = 36;
             this.btnCopiar.Text = "Copiar";
             this.btnCopiar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCopiar.UseVisualStyleBackColor = true;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Image = global::Livraria.Properties.Resources.cancelar;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCancelar.Location = new System.Drawing.Point(480, 0);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(0);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(80, 60);
+            this.btnCancelar.TabIndex = 35;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // btnExcluir
             // 
@@ -88,7 +88,7 @@
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(0);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(80, 60);
-            this.btnExcluir.TabIndex = 20;
+            this.btnExcluir.TabIndex = 34;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnExcluir.UseVisualStyleBackColor = true;
@@ -102,7 +102,7 @@
             this.btnAlterar.Margin = new System.Windows.Forms.Padding(0);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(80, 60);
-            this.btnAlterar.TabIndex = 19;
+            this.btnAlterar.TabIndex = 33;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnAlterar.UseVisualStyleBackColor = true;
@@ -116,7 +116,7 @@
             this.btnSalvar.Margin = new System.Windows.Forms.Padding(0);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(80, 60);
-            this.btnSalvar.TabIndex = 18;
+            this.btnSalvar.TabIndex = 32;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnSalvar.UseVisualStyleBackColor = true;
@@ -130,7 +130,7 @@
             this.btnNovo.Margin = new System.Windows.Forms.Padding(0);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(80, 60);
-            this.btnNovo.TabIndex = 17;
+            this.btnNovo.TabIndex = 31;
             this.btnNovo.Text = "Novo";
             this.btnNovo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnNovo.UseVisualStyleBackColor = true;
@@ -147,19 +147,19 @@
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.btnNovo);
             this.Name = "BarraOpcoes";
-            this.Size = new System.Drawing.Size(783, 60);
+            this.Size = new System.Drawing.Size(802, 60);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Button btnColar;
+        private System.Windows.Forms.Button btnCopiar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnNovo;
-        private System.Windows.Forms.Button btnCopiar;
-        private System.Windows.Forms.Button btnColar;
     }
 }

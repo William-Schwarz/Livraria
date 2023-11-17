@@ -1,6 +1,6 @@
 ﻿namespace Livraria
 {
-    partial class principal
+    partial class Principal
     {
         /// <summary> 
         /// Required designer variable.
@@ -35,21 +35,23 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Livraria.Properties.Resources.logo_menu2;
+            this.pictureBox1.Image = global::Livraria.Properties.Resources.principal3;
+            this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(848, 595);
+            this.pictureBox1.Size = new System.Drawing.Size(802, 540);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // principal
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.pictureBox1);
-            this.Name = "principal";
-            this.Size = new System.Drawing.Size(848, 595);
+            this.Name = "Principal";
+            this.Size = new System.Drawing.Size(802, 540);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
