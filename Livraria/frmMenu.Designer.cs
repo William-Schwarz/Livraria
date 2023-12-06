@@ -43,7 +43,6 @@
             this.btnFunc = new System.Windows.Forms.Button();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.barraOpcoes1 = new Livraria.BarraOpcoes();
             this.frmFuncionario1 = new Livraria.frmFuncionario();
             this.frmCliente1 = new Livraria.frmCliente();
             this.pnlMenu.SuspendLayout();
@@ -68,8 +67,9 @@
             this.pnlMenu.Controls.Add(this.pnlLogo);
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
+            this.pnlMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(200, 541);
+            this.pnlMenu.Size = new System.Drawing.Size(267, 666);
             this.pnlMenu.TabIndex = 0;
             // 
             // lblUsuarioLogado
@@ -78,9 +78,10 @@
             this.lblUsuarioLogado.AutoSize = true;
             this.lblUsuarioLogado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuarioLogado.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblUsuarioLogado.Location = new System.Drawing.Point(95, 525);
+            this.lblUsuarioLogado.Location = new System.Drawing.Point(127, 646);
+            this.lblUsuarioLogado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsuarioLogado.Name = "lblUsuarioLogado";
-            this.lblUsuarioLogado.Size = new System.Drawing.Size(0, 13);
+            this.lblUsuarioLogado.Size = new System.Drawing.Size(0, 17);
             this.lblUsuarioLogado.TabIndex = 13;
             // 
             // label2
@@ -89,9 +90,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label2.Location = new System.Drawing.Point(3, 521);
+            this.label2.Location = new System.Drawing.Point(4, 641);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 17);
+            this.label2.Size = new System.Drawing.Size(126, 22);
             this.label2.TabIndex = 12;
             this.label2.Text = "Usuário Logado:";
             // 
@@ -104,10 +106,11 @@
             this.btnSair.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnSair.Image = global::Livraria.Properties.Resources.sair1;
             this.btnSair.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnSair.Location = new System.Drawing.Point(0, 420);
+            this.btnSair.Location = new System.Drawing.Point(0, 515);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnSair.Size = new System.Drawing.Size(200, 40);
+            this.btnSair.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnSair.Size = new System.Drawing.Size(267, 49);
             this.btnSair.TabIndex = 11;
             this.btnSair.Text = " Sair";
             this.btnSair.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -124,10 +127,11 @@
             this.btnCaixa.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnCaixa.Image = global::Livraria.Properties.Resources.forma_de_pagamento;
             this.btnCaixa.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnCaixa.Location = new System.Drawing.Point(0, 380);
+            this.btnCaixa.Location = new System.Drawing.Point(0, 466);
+            this.btnCaixa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCaixa.Name = "btnCaixa";
-            this.btnCaixa.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnCaixa.Size = new System.Drawing.Size(200, 40);
+            this.btnCaixa.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnCaixa.Size = new System.Drawing.Size(267, 49);
             this.btnCaixa.TabIndex = 10;
             this.btnCaixa.Text = " Caixa";
             this.btnCaixa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -143,10 +147,11 @@
             this.btnPedido.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnPedido.Image = global::Livraria.Properties.Resources.pagamento;
             this.btnPedido.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPedido.Location = new System.Drawing.Point(0, 340);
+            this.btnPedido.Location = new System.Drawing.Point(0, 417);
+            this.btnPedido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPedido.Name = "btnPedido";
-            this.btnPedido.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnPedido.Size = new System.Drawing.Size(200, 40);
+            this.btnPedido.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnPedido.Size = new System.Drawing.Size(267, 49);
             this.btnPedido.TabIndex = 9;
             this.btnPedido.Text = " Pedido";
             this.btnPedido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -162,10 +167,11 @@
             this.btnAutores.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnAutores.Image = global::Livraria.Properties.Resources.autor;
             this.btnAutores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAutores.Location = new System.Drawing.Point(0, 300);
+            this.btnAutores.Location = new System.Drawing.Point(0, 368);
+            this.btnAutores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAutores.Name = "btnAutores";
-            this.btnAutores.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnAutores.Size = new System.Drawing.Size(200, 40);
+            this.btnAutores.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnAutores.Size = new System.Drawing.Size(267, 49);
             this.btnAutores.TabIndex = 8;
             this.btnAutores.Text = " Autores";
             this.btnAutores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -181,10 +187,11 @@
             this.btnEditora.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnEditora.Image = global::Livraria.Properties.Resources.editora;
             this.btnEditora.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditora.Location = new System.Drawing.Point(0, 260);
+            this.btnEditora.Location = new System.Drawing.Point(0, 319);
+            this.btnEditora.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEditora.Name = "btnEditora";
-            this.btnEditora.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnEditora.Size = new System.Drawing.Size(200, 40);
+            this.btnEditora.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnEditora.Size = new System.Drawing.Size(267, 49);
             this.btnEditora.TabIndex = 7;
             this.btnEditora.Text = " Editora";
             this.btnEditora.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,10 +207,11 @@
             this.btnCategoria.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnCategoria.Image = global::Livraria.Properties.Resources.lista;
             this.btnCategoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCategoria.Location = new System.Drawing.Point(0, 220);
+            this.btnCategoria.Location = new System.Drawing.Point(0, 270);
+            this.btnCategoria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCategoria.Name = "btnCategoria";
-            this.btnCategoria.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnCategoria.Size = new System.Drawing.Size(200, 40);
+            this.btnCategoria.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnCategoria.Size = new System.Drawing.Size(267, 49);
             this.btnCategoria.TabIndex = 6;
             this.btnCategoria.Text = " Categoria";
             this.btnCategoria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -219,10 +227,11 @@
             this.btnLivros.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnLivros.Image = global::Livraria.Properties.Resources.livros;
             this.btnLivros.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLivros.Location = new System.Drawing.Point(0, 180);
+            this.btnLivros.Location = new System.Drawing.Point(0, 221);
+            this.btnLivros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLivros.Name = "btnLivros";
-            this.btnLivros.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnLivros.Size = new System.Drawing.Size(200, 40);
+            this.btnLivros.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnLivros.Size = new System.Drawing.Size(267, 49);
             this.btnLivros.TabIndex = 5;
             this.btnLivros.Text = " Livros";
             this.btnLivros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -238,10 +247,11 @@
             this.btnFones.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnFones.Image = global::Livraria.Properties.Resources.telefone;
             this.btnFones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFones.Location = new System.Drawing.Point(0, 140);
+            this.btnFones.Location = new System.Drawing.Point(0, 172);
+            this.btnFones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFones.Name = "btnFones";
-            this.btnFones.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnFones.Size = new System.Drawing.Size(200, 40);
+            this.btnFones.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnFones.Size = new System.Drawing.Size(267, 49);
             this.btnFones.TabIndex = 4;
             this.btnFones.Text = " Telefones";
             this.btnFones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -257,10 +267,11 @@
             this.btnCliente.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnCliente.Image = global::Livraria.Properties.Resources.cliente;
             this.btnCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCliente.Location = new System.Drawing.Point(0, 100);
+            this.btnCliente.Location = new System.Drawing.Point(0, 123);
+            this.btnCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnCliente.Size = new System.Drawing.Size(200, 40);
+            this.btnCliente.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnCliente.Size = new System.Drawing.Size(267, 49);
             this.btnCliente.TabIndex = 3;
             this.btnCliente.Text = " Cliente";
             this.btnCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -277,10 +288,11 @@
             this.btnFunc.ForeColor = System.Drawing.Color.DarkBlue;
             this.btnFunc.Image = global::Livraria.Properties.Resources.funcionario;
             this.btnFunc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFunc.Location = new System.Drawing.Point(0, 60);
+            this.btnFunc.Location = new System.Drawing.Point(0, 74);
+            this.btnFunc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFunc.Name = "btnFunc";
-            this.btnFunc.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnFunc.Size = new System.Drawing.Size(200, 40);
+            this.btnFunc.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnFunc.Size = new System.Drawing.Size(267, 49);
             this.btnFunc.TabIndex = 2;
             this.btnFunc.Text = " Funcionário";
             this.btnFunc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -294,8 +306,9 @@
             this.pnlLogo.Controls.Add(this.label1);
             this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLogo.Location = new System.Drawing.Point(0, 0);
+            this.pnlLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlLogo.Name = "pnlLogo";
-            this.pnlLogo.Size = new System.Drawing.Size(200, 60);
+            this.pnlLogo.Size = new System.Drawing.Size(267, 74);
             this.pnlLogo.TabIndex = 1;
             // 
             // label1
@@ -304,32 +317,24 @@
             this.label1.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(29, 19);
+            this.label1.Location = new System.Drawing.Point(39, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 25);
+            this.label1.Size = new System.Drawing.Size(183, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "WS Livraria";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.UseMnemonic = false;
-            // 
-            // barraOpcoes1
-            // 
-            this.barraOpcoes1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.barraOpcoes1.Location = new System.Drawing.Point(200, 0);
-            this.barraOpcoes1.Name = "barraOpcoes1";
-            this.barraOpcoes1.Size = new System.Drawing.Size(802, 60);
-            this.barraOpcoes1.TabIndex = 16;
             // 
             // frmFuncionario1
             // 
             this.frmFuncionario1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.frmFuncionario1.Location = new System.Drawing.Point(200, 60);
+            this.frmFuncionario1.Location = new System.Drawing.Point(267, 0);
+            this.frmFuncionario1.Margin = new System.Windows.Forms.Padding(5);
             this.frmFuncionario1.Name = "frmFuncionario1";
-            this.frmFuncionario1.Size = new System.Drawing.Size(802, 480);
+            this.frmFuncionario1.Size = new System.Drawing.Size(1070, 600);
             this.frmFuncionario1.TabIndex = 17;
             // 
             // frmCliente1
@@ -337,20 +342,21 @@
             this.frmCliente1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.frmCliente1.Location = new System.Drawing.Point(200, 60);
+            this.frmCliente1.Location = new System.Drawing.Point(267, 0);
+            this.frmCliente1.Margin = new System.Windows.Forms.Padding(5);
             this.frmCliente1.Name = "frmCliente1";
-            this.frmCliente1.Size = new System.Drawing.Size(802, 480);
+            this.frmCliente1.Size = new System.Drawing.Size(1070, 600);
             this.frmCliente1.TabIndex = 18;
             // 
             // frmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1004, 541);
+            this.ClientSize = new System.Drawing.Size(1339, 666);
             this.Controls.Add(this.frmCliente1);
             this.Controls.Add(this.frmFuncionario1);
-            this.Controls.Add(this.barraOpcoes1);
             this.Controls.Add(this.pnlMenu);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMenu";
@@ -380,7 +386,6 @@
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label lblUsuarioLogado;
         private System.Windows.Forms.Label label2;
-        private BarraOpcoes barraOpcoes1;
         private frmFuncionario frmFuncionario1;
         private frmCliente frmCliente1;
     }

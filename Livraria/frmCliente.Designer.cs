@@ -142,6 +142,7 @@
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnSalvar
             // 
@@ -480,6 +481,7 @@
             this.dgvCliente.Location = new System.Drawing.Point(26, 358);
             this.dgvCliente.MultiSelect = false;
             this.dgvCliente.Name = "dgvCliente";
+            this.dgvCliente.RowHeadersWidth = 51;
             this.dgvCliente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCliente.Size = new System.Drawing.Size(748, 130);
             this.dgvCliente.TabIndex = 64;
@@ -499,7 +501,7 @@
             // 
             this.mskCNPJ.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mskCNPJ.Location = new System.Drawing.Point(585, 153);
-            this.mskCNPJ.Mask = "00.00.00/000-0";
+            this.mskCNPJ.Mask = "00.000.000/0000-00";
             this.mskCNPJ.Name = "mskCNPJ";
             this.mskCNPJ.Size = new System.Drawing.Size(189, 26);
             this.mskCNPJ.TabIndex = 66;
@@ -584,7 +586,7 @@
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.btnNovo);
             this.Name = "frmCliente";
-            this.Size = new System.Drawing.Size(802, 480);
+            this.Size = new System.Drawing.Size(802, 488);
             this.Load += new System.EventHandler(this.frmCliente_Load);
             this.gbPesquisaCliente.ResumeLayout(false);
             this.gbPesquisaCliente.PerformLayout();

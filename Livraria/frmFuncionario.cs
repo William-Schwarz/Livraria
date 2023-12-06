@@ -9,11 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Windows.Data;
+using System.Threading;
 
 namespace Livraria
 {
     public partial class frmFuncionario : UserControl
     {
+        private BarraOpcoes BarraOpcoes;
+
         public frmFuncionario()
         {
             InitializeComponent();
